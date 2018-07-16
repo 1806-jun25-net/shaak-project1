@@ -1,0 +1,12 @@
+c:\users\scar\source\repos\Store\Store.WebApp\bin\Debug\netcoreapp2.0\Store.WebApp.deps.json
+c:\users\scar\source\repos\Store\Store.WebApp\bin\Debug\netcoreapp2.0\Store.WebApp.runtimeconfig.json
+c:\users\scar\source\repos\Store\Store.WebApp\bin\Debug\netcoreapp2.0\Store.WebApp.runtimeconfig.dev.json
+c:\users\scar\source\repos\Store\Store.WebApp\bin\Debug\netcoreapp2.0\Store.WebApp.dll
+c:\users\scar\source\repos\Store\Store.WebApp\bin\Debug\netcoreapp2.0\Store.WebApp.pdb
+c:\users\scar\source\repos\Store\Store.WebApp\obj\Debug\netcoreapp2.0\Store.WebApp.csprojAssemblyReference.cache
+c:\users\scar\source\repos\Store\Store.WebApp\obj\Debug\netcoreapp2.0\Store.WebApp.csproj.CoreCompileInputs.cache
+c:\users\scar\source\repos\Store\Store.WebApp\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+c:\users\scar\source\repos\Store\Store.WebApp\obj\Debug\netcoreapp2.0\Store.WebApp.AssemblyInfoInputs.cache
+c:\users\scar\source\repos\Store\Store.WebApp\obj\Debug\netcoreapp2.0\Store.WebApp.AssemblyInfo.cs
+c:\users\scar\source\repos\Store\Store.WebApp\obj\Debug\netcoreapp2.0\Store.WebApp.dll
+c:\users\scar\source\repos\Store\Store.WebApp\obj\Debug\netcoreapp2.0\Store.WebApp.pdb

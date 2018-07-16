@@ -1,0 +1,60 @@
+﻿@model Store.WebApp.Models.Order
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Order</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.UserName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.UserName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TotalPizza)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TotalPizza)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.LoName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.LoName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PizzaName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PizzaName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TotalAmount)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TotalAmount)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DatePlaced)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DatePlaced)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TimePlaced)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TimePlaced)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
