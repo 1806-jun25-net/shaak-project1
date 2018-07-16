@@ -1,0 +1,11 @@
+C:\Revature\PizzaStore\PizzaStore.Context\bin\Debug\netcoreapp2.1\PizzaStore.Context.deps.json
+C:\Revature\PizzaStore\PizzaStore.Context\bin\Debug\netcoreapp2.1\PizzaStore.Context.runtimeconfig.json
+C:\Revature\PizzaStore\PizzaStore.Context\bin\Debug\netcoreapp2.1\PizzaStore.Context.runtimeconfig.dev.json
+C:\Revature\PizzaStore\PizzaStore.Context\bin\Debug\netcoreapp2.1\PizzaStore.Context.dll
+C:\Revature\PizzaStore\PizzaStore.Context\obj\Debug\netcoreapp2.1\PizzaStore.Context.csprojAssemblyReference.cache
+C:\Revature\PizzaStore\PizzaStore.Context\obj\Debug\netcoreapp2.1\PizzaStore.Context.csproj.CoreCompileInputs.cache
+C:\Revature\PizzaStore\PizzaStore.Context\obj\Debug\netcoreapp2.1\PizzaStore.Context.AssemblyInfoInputs.cache
+C:\Revature\PizzaStore\PizzaStore.Context\obj\Debug\netcoreapp2.1\PizzaStore.Context.AssemblyInfo.cs
+C:\Revature\PizzaStore\PizzaStore.Context\bin\Debug\netcoreapp2.1\PizzaStore.Context.pdb
+C:\Revature\PizzaStore\PizzaStore.Context\obj\Debug\netcoreapp2.1\PizzaStore.Context.dll
+C:\Revature\PizzaStore\PizzaStore.Context\obj\Debug\netcoreapp2.1\PizzaStore.Context.pdb

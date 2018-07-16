@@ -57,6 +57,10 @@ namespace Store.WebApp.Controllers
         {
             if (ModelState.IsValid)
             {
+                if(order.TotalPizza > 12 || order.TotalAmount > 500)
+                {
+                    return NotFound("Too many pizzas or you can not spend more than $500");
+                }
                 order.DatePlaced = DateTime.Now;
                 order.TimePlaced = DateTime.Now;
                 _context.Add(order);
@@ -133,6 +137,15 @@ namespace Store.WebApp.Controllers
             }
 
             return View(order);
+        }
+
+        public IActionResult Search(string search, [Bind("UserName, LastName, FirstName")] Users user)
+        {
+            if (search == user.FirstName)
+            {
+                return View(user.UserName);
+            }
+            return View();
         }
 
         // POST: Orders/Delete/5

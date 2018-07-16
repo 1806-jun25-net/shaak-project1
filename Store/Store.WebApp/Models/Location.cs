@@ -7,6 +7,7 @@ namespace Store.WebApp.Models
 {
     public class Location
     {
+        //public int id { get; set; }
         public string LoName { get; set; }
         public int Dough { get; set; }
         public int Bacon { get; set; }

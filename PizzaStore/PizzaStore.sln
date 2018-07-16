@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaStore.WebApp", "PizzaStore.WebApp\PizzaStore.WebApp.csproj", "{833AA61A-E754-4EDF-919A-3297E4C205B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaStore.Context", "PizzaStore.Context\PizzaStore.Context.csproj", "{58F972EA-198A-4453-B7E0-E405F7C5D837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaStore.Library", "PizzaStore.Library\PizzaStore.Library.csproj", "{3689DDC4-748E-4963-BAE3-083388E275B2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{58F972EA-198A-4453-B7E0-E405F7C5D837} = {58F972EA-198A-4453-B7E0-E405F7C5D837}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{833AA61A-E754-4EDF-919A-3297E4C205B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{833AA61A-E754-4EDF-919A-3297E4C205B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{833AA61A-E754-4EDF-919A-3297E4C205B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{833AA61A-E754-4EDF-919A-3297E4C205B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58F972EA-198A-4453-B7E0-E405F7C5D837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58F972EA-198A-4453-B7E0-E405F7C5D837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58F972EA-198A-4453-B7E0-E405F7C5D837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58F972EA-198A-4453-B7E0-E405F7C5D837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3689DDC4-748E-4963-BAE3-083388E275B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3689DDC4-748E-4963-BAE3-083388E275B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3689DDC4-748E-4963-BAE3-083388E275B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3689DDC4-748E-4963-BAE3-083388E275B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D53DA29C-219A-4ADB-86BE-688BD9D527C3}
+	EndGlobalSection
+EndGlobal

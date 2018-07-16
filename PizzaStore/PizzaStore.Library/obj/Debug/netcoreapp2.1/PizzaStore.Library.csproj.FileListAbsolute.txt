@@ -1,0 +1,4 @@
+C:\Revature\PizzaStore\PizzaStore.Library\obj\Debug\netcoreapp2.1\PizzaStore.Library.csprojAssemblyReference.cache
+C:\Revature\PizzaStore\PizzaStore.Library\obj\Debug\netcoreapp2.1\PizzaStore.Library.csproj.CoreCompileInputs.cache
+C:\Revature\PizzaStore\PizzaStore.Library\obj\Debug\netcoreapp2.1\PizzaStore.Library.AssemblyInfoInputs.cache
+C:\Revature\PizzaStore\PizzaStore.Library\obj\Debug\netcoreapp2.1\PizzaStore.Library.AssemblyInfo.cs
