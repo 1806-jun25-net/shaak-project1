@@ -10,3 +10,15 @@ c:\users\scar\source\repos\Store\Store.WebApp\obj\Debug\netcoreapp2.0\Store.WebA
 c:\users\scar\source\repos\Store\Store.WebApp\obj\Debug\netcoreapp2.0\Store.WebApp.AssemblyInfo.cs
 c:\users\scar\source\repos\Store\Store.WebApp\obj\Debug\netcoreapp2.0\Store.WebApp.dll
 c:\users\scar\source\repos\Store\Store.WebApp\obj\Debug\netcoreapp2.0\Store.WebApp.pdb
+C:\Revature\GitHub\shaak-project1\Store\Store.WebApp\bin\Debug\netcoreapp2.0\Store.WebApp.deps.json
+C:\Revature\GitHub\shaak-project1\Store\Store.WebApp\bin\Debug\netcoreapp2.0\Store.WebApp.runtimeconfig.json
+C:\Revature\GitHub\shaak-project1\Store\Store.WebApp\bin\Debug\netcoreapp2.0\Store.WebApp.runtimeconfig.dev.json
+C:\Revature\GitHub\shaak-project1\Store\Store.WebApp\bin\Debug\netcoreapp2.0\Store.WebApp.dll
+C:\Revature\GitHub\shaak-project1\Store\Store.WebApp\bin\Debug\netcoreapp2.0\Store.WebApp.pdb
+C:\Revature\GitHub\shaak-project1\Store\Store.WebApp\obj\Debug\netcoreapp2.0\Store.WebApp.csprojAssemblyReference.cache
+C:\Revature\GitHub\shaak-project1\Store\Store.WebApp\obj\Debug\netcoreapp2.0\Store.WebApp.csproj.CoreCompileInputs.cache
+C:\Revature\GitHub\shaak-project1\Store\Store.WebApp\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Revature\GitHub\shaak-project1\Store\Store.WebApp\obj\Debug\netcoreapp2.0\Store.WebApp.AssemblyInfoInputs.cache
+C:\Revature\GitHub\shaak-project1\Store\Store.WebApp\obj\Debug\netcoreapp2.0\Store.WebApp.AssemblyInfo.cs
+C:\Revature\GitHub\shaak-project1\Store\Store.WebApp\obj\Debug\netcoreapp2.0\Store.WebApp.dll
+C:\Revature\GitHub\shaak-project1\Store\Store.WebApp\obj\Debug\netcoreapp2.0\Store.WebApp.pdb

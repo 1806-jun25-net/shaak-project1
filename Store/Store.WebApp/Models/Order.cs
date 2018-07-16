@@ -13,8 +13,8 @@ namespace Store.WebApp.Models
         public string LoName { get; set; }
         public string PizzaName { get; set; }
         public decimal TotalAmount { get; set; }
-        public DateTime DatePlaced = DateTime.Now;
-        public DateTime TimePlaced = DateTime.Now;
+        public DateTime DatePlaced { get; set; }
+        public DateTime TimePlaced { get; set; }
 
     }
 }

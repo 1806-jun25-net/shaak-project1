@@ -13266,11 +13266,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\scar\\source\\repos\\Store\\Store.WebApp\\Store.WebApp.csproj",
+      "projectUniqueName": "C:\\Revature\\GitHub\\shaak-project1\\Store\\Store.WebApp\\Store.WebApp.csproj",
       "projectName": "Store.WebApp",
-      "projectPath": "c:\\users\\scar\\source\\repos\\Store\\Store.WebApp\\Store.WebApp.csproj",
+      "projectPath": "C:\\Revature\\GitHub\\shaak-project1\\Store\\Store.WebApp\\Store.WebApp.csproj",
       "packagesPath": "C:\\Users\\Scar\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\scar\\source\\repos\\Store\\Store.WebApp\\obj\\",
+      "outputPath": "C:\\Revature\\GitHub\\shaak-project1\\Store\\Store.WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

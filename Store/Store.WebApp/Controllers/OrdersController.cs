@@ -57,6 +57,8 @@ namespace Store.WebApp.Controllers
         {
             if (ModelState.IsValid)
             {
+                order.DatePlaced = DateTime.Now;
+                order.TimePlaced = DateTime.Now;
                 _context.Add(order);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
