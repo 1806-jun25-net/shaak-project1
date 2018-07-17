@@ -17,15 +17,15 @@ namespace PizzaStore.Library.Repositories
             _db = db ?? throw new ArgumentNullException(nameof(db));
         }
 
-        public IEnumerable<Models.Order> GetOrders(string search = null)
+        public IEnumerable<Models.User> GetUsername(string search = null)
         {
             if (search == null)
             {
-                return Mapper.Map(_db.Orders.Include(u => u.UserName));
+                return Mapper.Map(_db.Users.Include(u => u.UserName));
             }
             else
             {
-                return Mapper.Map(_db.Orders.Include(u => u.UserName).AsNoTracking().Where(u => u..Contains(search)));
+                return Mapper.Map(_db.Users.Include(u => u.UserName).AsNoTracking().Where(u => u.FirstName.Contains(search)));
             }
         }
 
@@ -51,64 +51,64 @@ namespace PizzaStore.Library.Repositories
             return Mapper.Map(username);
         }
 
-        public IEnumerable<Orders> GetRecentOrder(string user)
-        {
-            List<Orders> orders = _db.Orders.Take(1).Where(x => x.UserName == user).OrderByDescending(u => u.OrderId).Select(x => x).ToList();
-            return orders;
-        }
+        //public IEnumerable<Orders> GetRecentOrder(string user)
+        //{
+        //    //List<Orders> orders = _db.Orders.Take(1).Where(x => x.UserName == user).OrderByDescending(u => u.OrderId).Select(x => x).ToList();
+        //    return orders;
+        //}
 
-        public void AddOrder(Order order)
-        {
-            throw new NotImplementedException();
-        }
+        //public void AddOrder(Order order)
+        //{
+        //    throw new NotImplementedException();
+        //}
 
-        public IEnumerable<Orders> GetOrderByUserCheap(string user)
-        {
-            List<Orders> orders = _db.Orders.AsNoTracking().Where(x => x.UserName == user).OrderBy(u => u.TotalAmount).Select(x => x).ToList();
-            return orders;
-        }
+        //public IEnumerable<Orders> GetOrderByUserCheap(string user)
+        //{
+        //    //List<Orders> orders = _db.Orders.AsNoTracking().Where(x => x.UserName == user).OrderBy(u => u.TotalAmount).Select(x => x).ToList();
+        //    return orders;
+        //}
 
-        public IEnumerable<Orders> GetOrderByUserExpensive(string user)
-        {
-            List<Orders> orders = _db.Orders.AsNoTracking().Where(x => x.UserName == user).OrderByDescending(u => u.TotalAmount).Select(x => x).ToList();
-            return orders;
-        }
+        //public IEnumerable<Orders> GetOrderByUserExpensive(string user)
+        //{
+        //    List<Orders> orders = _db.Orders.AsNoTracking().Where(x => x.UserName == user).OrderByDescending(u => u.TotalAmount).Select(x => x).ToList();
+        //    return orders;
+        //}
 
-        public IEnumerable<Orders> GetOrderByUserHistory(string user)
-        {
-            List<Orders> orders = _db.Orders.AsNoTracking().Where(x => x.UserName == user).OrderBy(u => u.OrderId).Select(x => x).ToList();
-            return orders;
-        }
+        //public IEnumerable<Orders> GetOrderByUserHistory(string user)
+        //{
+        //    List<Orders> orders = _db.Orders.AsNoTracking().Where(x => x.UserName == user).OrderBy(u => u.OrderId).Select(x => x).ToList();
+        //    return orders;
+        //}
 
-        public IEnumerable<Orders> GetOrderByUserRecent(string user)
-        {
-            List<Orders> orders = _db.Orders.AsNoTracking().Where(x => x.UserName == user).OrderByDescending(u => u.OrderId).Select(x => x).ToList();
-            return orders;
-        }
+        //public IEnumerable<Orders> GetOrderByUserRecent(string user)
+        //{
+        //    List<Orders> orders = _db.Orders.AsNoTracking().Where(x => x.UserName == user).OrderByDescending(u => u.OrderId).Select(x => x).ToList();
+        //    return orders;
+        //}
 
-        public IEnumerable<Orders> GetOrderByLocationCheap(string location)
-        {
-            List<Orders> orders = _db.Orders.AsNoTracking().Where(x => x.LoName == location).OrderBy(u => u.TotalAmount).Select(x => x).ToList();
-            return orders;
-        }
+        //public IEnumerable<Orders> GetOrderByLocationCheap(string location)
+        //{
+        //    List<Orders> orders = _db.Orders.AsNoTracking().Where(x => x.LoName == location).OrderBy(u => u.TotalAmount).Select(x => x).ToList();
+        //    return orders;
+        //}
 
-        public IEnumerable<Orders> GetOrderByLocationExpensive(string location)
-        {
-            List<Orders> orders = _db.Orders.AsNoTracking().Where(x => x.LoName == location).OrderByDescending(u => u.TotalAmount).Select(x => x).ToList();
-            return orders;
-        }
+        //public IEnumerable<Orders> GetOrderByLocationExpensive(string location)
+        //{
+        //    List<Orders> orders = _db.Orders.AsNoTracking().Where(x => x.LoName == location).OrderByDescending(u => u.TotalAmount).Select(x => x).ToList();
+        //    return orders;
+        //}
 
-        public IEnumerable<Orders> GetOrderByLocationHistory(string location)
-        {
-            List<Orders> orders = _db.Orders.AsNoTracking().Where(x => x.LoName == location).OrderBy(u => u.OrderId).Select(x => x).ToList();
-            return orders;
-        }
+        //public IEnumerable<Orders> GetOrderByLocationHistory(string location)
+        //{
+        //    List<Orders> orders = _db.Orders.AsNoTracking().Where(x => x.LoName == location).OrderBy(u => u.OrderId).Select(x => x).ToList();
+        //    return orders;
+        //}
 
-        public IEnumerable<Orders> GetOrderByLocationRecent(string location)
-        {
-            List<Orders> orders = _db.Orders.AsNoTracking().Where(x => x.LoName == location).OrderByDescending(u => u.OrderId).Select(x => x).ToList();
-            return orders;
-        }
+        //public IEnumerable<Orders> GetOrderByLocationRecent(string location)
+        //{
+        //    List<Orders> orders = _db.Orders.AsNoTracking().Where(x => x.LoName == location).OrderByDescending(u => u.OrderId).Select(x => x).ToList();
+        //    return orders;
+        //}
 
         public void AddOrder(Orders order)
         {
