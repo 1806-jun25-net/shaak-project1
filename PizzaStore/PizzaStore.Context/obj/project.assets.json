@@ -3572,11 +3572,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Revature\\PizzaStore\\PizzaStore.Context\\PizzaStore.Context.csproj",
+      "projectUniqueName": "C:\\Revature\\GitHub\\shaak-project1\\PizzaStore\\PizzaStore.Context\\PizzaStore.Context.csproj",
       "projectName": "PizzaStore.Context",
-      "projectPath": "C:\\Revature\\PizzaStore\\PizzaStore.Context\\PizzaStore.Context.csproj",
+      "projectPath": "C:\\Revature\\GitHub\\shaak-project1\\PizzaStore\\PizzaStore.Context\\PizzaStore.Context.csproj",
       "packagesPath": "C:\\Users\\Scar\\.nuget\\packages\\",
-      "outputPath": "C:\\Revature\\PizzaStore\\PizzaStore.Context\\obj\\",
+      "outputPath": "C:\\Revature\\GitHub\\shaak-project1\\PizzaStore\\PizzaStore.Context\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

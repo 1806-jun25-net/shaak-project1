@@ -12,5 +12,9 @@
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" />
   </ItemGroup>
+  
+   <PropertyGroup>
+    <DebugType>Full</DebugType>
+  </PropertyGroup>
 
 </Project>
